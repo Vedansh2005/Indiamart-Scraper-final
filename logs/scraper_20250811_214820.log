@@ -1,0 +1,98 @@
+2025-08-11 21:48:20,613 - INFO - Setting up the browser...
+2025-08-11 21:48:20,615 - INFO - Using remote debugging port: 9835
+2025-08-11 21:48:23,070 - INFO - Browser setup complete
+2025-08-11 21:48:23,074 - INFO - Starting IndiaMART Lead Scraper
+2025-08-11 21:48:23,075 - INFO - Navigating to IndiaMART buyer login page...
+2025-08-11 21:48:25,728 - INFO - Navigated to buyer login page. Current URL: https://buyer.indiamart.com/login
+2025-08-11 21:48:31,462 - INFO - Entered mobile number: 7720907356
+2025-08-11 21:48:34,742 - INFO - Clicked 'Send OTP' button.
+2025-08-11 21:48:45,482 - INFO - Entered OTP.
+2025-08-11 21:48:45,679 - INFO - Clicked 'Verify OTP' button.
+2025-08-11 21:48:45,689 - INFO - Login process successful!
+2025-08-11 21:48:45,690 - INFO - Using keyword: Cricket Ball
+2025-08-11 21:48:45,691 - INFO - Initiating search for: Cricket Ball
+2025-08-11 21:48:49,238 - INFO - Entered keyword 'Cricket Ball' into the search input box (id='search_string').
+2025-08-11 21:48:49,534 - INFO - Clicked the first search button (rvmp_srch_button).
+2025-08-11 21:48:51,812 - INFO - Clicked the second search button (adv-btn search-button).
+2025-08-11 21:48:52,711 - INFO - Switched to new window/tab: https://dir.indiamart.com/search.mp?ss=Cricket+Ball&search_type=p&mcatid=11234&catid=533&prdsrc=1&q-quantity-unit=piece
+2025-08-11 21:48:53,150 - INFO - Search results page loaded (listingCardContainer found).
+2025-08-11 21:48:53,151 - INFO - Attempting to set city to 'All India'.
+2025-08-11 21:48:56,338 - INFO - Clicked city dropdown button.
+2025-08-11 21:48:58,659 - INFO - Selected 'All India' city option.
+2025-08-11 21:49:03,673 - INFO - Listing cards re-loaded after 'All India' selection.
+2025-08-11 21:49:03,674 - INFO - Attempting to click 'Show more results' button repeatedly.
+2025-08-11 21:49:03,950 - ERROR - Error clicking 'Show more results': Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=138.0.7204.184); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6519ce415+77285]
+	GetHandleVerifier [0x0x7ff6519ce470+77376]
+	(No symbol) [0x0x7ff651799a6a]
+	(No symbol) [0x0x7ff6517a1419]
+	(No symbol) [0x0x7ff6517a44cc]
+	(No symbol) [0x0x7ff6517a459f]
+	(No symbol) [0x0x7ff6517f25ed]
+	(No symbol) [0x0x7ff6517f15c9]
+	(No symbol) [0x0x7ff6517e3804]
+	(No symbol) [0x0x7ff65181860a]
+	(No symbol) [0x0x7ff6517e2d06]
+	(No symbol) [0x0x7ff651818820]
+	(No symbol) [0x0x7ff65184087f]
+	(No symbol) [0x0x7ff6518183e3]
+	(No symbol) [0x0x7ff6517e1521]
+	(No symbol) [0x0x7ff6517e22b3]
+	GetHandleVerifier [0x0x7ff651cb1efd+3107021]
+	GetHandleVerifier [0x0x7ff651cac29d+3083373]
+	GetHandleVerifier [0x0x7ff651ccbedd+3213485]
+	GetHandleVerifier [0x0x7ff6519e884e+184862]
+	GetHandleVerifier [0x0x7ff6519f055f+216879]
+	GetHandleVerifier [0x0x7ff6519d7084+113236]
+	GetHandleVerifier [0x0x7ff6519d7239+113673]
+	GetHandleVerifier [0x0x7ff6519be298+11368]
+	BaseThreadInitThunk [0x0x7ffb8b46259d+29]
+	RtlUserThreadStart [0x0x7ffb8cd0af78+40]
+
+2025-08-11 21:49:03,952 - INFO - Finished clicking 'Show more results' buttons.
+2025-08-11 21:49:03,956 - INFO - Scraping page 1...
+2025-08-11 21:49:03,996 - INFO - Ensured driver is on search results window: https://dir.indiamart.com/search.mp?ss=cricket+ball&search_type=p&mcatid=11234&catid=533&v=4&crs=csugg-all&c_src=as-userCity&cityid=&tags=res:RC4|ktp:N0|stype:attr=1|mtp:G|wc:2|lcf:-1|qr_nm:gd|cs:15957|com-cf:nl|ptrs:na|mc:11234|cat:533|qry_typ:P|lang:en|flavl:0-10|rtn:1-0-1-0-2-6-0|qrd:250810|mrd:250810|prdt:250811|msf:ls|pfen:1|gli:G1I2
+2025-08-11 21:49:04,012 - INFO - Found listingCardContainer.
+2025-08-11 21:49:06,397 - INFO - Attempting to click 'Show more results' button repeatedly.
+2025-08-11 21:49:06,684 - INFO - Clicked 'Show more results' button.
+2025-08-11 21:49:09,261 - INFO - Clicked 'Show more results' button.
+2025-08-11 21:49:12,760 - INFO - Clicked 'Show more results' button.
+2025-08-11 21:49:21,479 - INFO - 'Show more results' button no longer visible or timed out.
+2025-08-11 21:49:21,479 - INFO - Finished clicking 'Show more results' buttons.
+2025-08-11 21:49:21,511 - INFO - Found 50 listings on page 1
+2025-08-11 21:49:29,348 - INFO - Processing 50 leads for detailed info from page 1.
+2025-08-11 21:49:30,521 - INFO - Visiting profile for detailed info: https://www.indiamart.com/proddetail/4-piece-red-leather-cricket-ball-2855620981830.html?pos=1&kwd=cricket%20ball&tags=rk:A||||prc:1|dtp:p||sv:M|rsf:gd|ri:M_A_NA_NP-|-res:RC4|ktp:N0|stype:attr=1|mtp:G|wc:2|lcf:-1|qr_nm:gd|cs:15957|com-cf:nl|ptrs:na|mc:11234|cat:533|qry_typ:P|lang:en|flavl:0-10|rtn:1-0-1-0-2-6-0|qrd:250810|mrd:250810|prdt:250811|msf:ls|pfen:1|gli:G1I2|v=4|crs=csugg-all|r=4
+2025-08-11 21:49:40,062 - INFO - Extracted detailed address from seller contact: Bharala Khas, Iklota Road, Pipleshwar Mahadev Mandir, Daurala - 250221, Meerut, Uttar Pradesh, India
+2025-08-11 21:49:41,973 - INFO - Extracted phone from profile (after click): 8045208419
+2025-08-11 21:49:42,142 - INFO - Extracted email from profile: 
+2025-08-11 21:49:42,322 - INFO - Closed profile tab.
+2025-08-11 21:49:42,328 - INFO - Switched back to search results window.
+2025-08-11 21:49:42,988 - INFO - Visiting profile for detailed info: https://www.indiamart.com/proddetail/cricket-ball-2851696579891.html?pos=2&kwd=cricket%20ball&tags=rk:A||||prc:1|dtp:p||sv:T|rsf:gd|ri:T_A_NA_NP-|-res:RC4|ktp:N0|stype:attr=1|mtp:G|wc:2|lcf:-1|qr_nm:gd|cs:15957|com-cf:nl|ptrs:na|mc:11234|cat:533|qry_typ:P|lang:en|flavl:0-10|rtn:1-0-1-0-2-6-0|qrd:250810|mrd:250810|prdt:250811|msf:ls|pfen:1|gli:G1I2|v=4|crs=csugg-all|r=4
+2025-08-11 21:49:53,545 - INFO - Extracted detailed address from seller contact: 219, Dharaskar Road, Near Kasar bhavan Nagpur - 440002, Maharashtra, India
+2025-08-11 21:49:55,289 - INFO - Extracted phone from profile (after click): 8047549609
+2025-08-11 21:49:55,412 - INFO - Extracted email from profile: 
+2025-08-11 21:49:55,564 - INFO - Closed profile tab.
+2025-08-11 21:49:55,582 - INFO - Switched back to search results window.
+2025-08-11 21:49:56,611 - INFO - Visiting profile for detailed info: https://www.indiamart.com/proddetail/hrs-rubber-cricket-ball-2851962505488.html?pos=3&kwd=cricket%20ball&tags=rk:A|||||dtp:p||sv:T|rsf:gd|ri:T_A_NA_NP-|-res:RC4|ktp:N0|stype:attr=1|mtp:G|wc:2|lcf:-1|qr_nm:gd|cs:15957|com-cf:nl|ptrs:na|mc:11234|cat:533|qry_typ:P|lang:en|flavl:0-10|rtn:1-0-1-0-2-6-0|qrd:250810|mrd:250810|prdt:250811|msf:ls|pfen:1|gli:G1I2|v=4|crs=csugg-all|r=4
+2025-08-11 21:50:10,577 - INFO - Extracted detailed address from seller contact: Third Floor, Premise No.10, Shop No.53,54,55and56, Sapthagiri Complex, Kumbarpet Cross, Gundopanth, Bengaluru - 560002, Karnataka, India
+2025-08-11 21:50:12,353 - INFO - Extracted phone from profile (after click): 7942866178
+2025-08-11 21:50:12,478 - INFO - Extracted email from profile: 
+2025-08-11 21:50:12,679 - INFO - Closed profile tab.
+2025-08-11 21:50:12,685 - INFO - Switched back to search results window.
+2025-08-11 21:50:13,715 - INFO - Visiting profile for detailed info: https://www.indiamart.com/proddetail/flash-i10-cricket-ball-2856603148430.html?pos=4&kwd=cricket%20ball&tags=rk:A||||prc:1|dtp:p||sv:M|rsf:gd|ri:M_A_NA_NP-|-res:RC4|ktp:N0|stype:attr=1|mtp:G|wc:2|lcf:-1|qr_nm:gd|cs:15957|com-cf:nl|ptrs:na|mc:11234|cat:533|qry_typ:P|lang:en|flavl:0-10|rtn:1-0-1-0-2-6-0|qrd:250810|mrd:250810|prdt:250811|msf:ls|pfen:1|gli:G1I2|v=4|crs=csugg-all
+2025-08-11 21:50:23,322 - INFO - Extracted detailed address from seller contact: 540 B Keso Ram Complex, Village Burail, Sector 45, Chandigarh, India
+2025-08-11 21:50:30,312 - INFO - Extracted email from profile: 
+2025-08-11 21:50:30,513 - INFO - Closed profile tab.
+2025-08-11 21:50:30,541 - INFO - Switched back to search results window.
+2025-08-11 21:50:31,135 - INFO - Visiting profile for detailed info: https://www.indiamart.com/proddetail/6-piece-guru-i-30-yellow-cricket-ball-2856387336273.html?pos=5&kwd=cricket%20ball&tags=rk:A||||prc:1|dtp:p||sv:T|rsf:gd|ri:T_A_NA_NP-|-res:RC4|ktp:N0|stype:attr=1|mtp:G|wc:2|lcf:-1|qr_nm:gd|cs:15957|com-cf:nl|ptrs:na|mc:11234|cat:533|qry_typ:P|lang:en|flavl:0-10|rtn:1-0-1-0-2-6-0|qrd:250810|mrd:250810|prdt:250811|msf:ls|pfen:1|gli:G1I2|v=4|crs=csugg-all|r=3
+2025-08-11 21:50:40,485 - INFO - Extracted detailed address from seller contact: C-88, Sports And Surgical Complex, Kapurthala Road, Jalandhar - 144004, Punjab, India
+2025-08-11 21:50:42,256 - INFO - Extracted phone from profile (after click): 7943436093
+2025-08-11 21:50:42,401 - INFO - Extracted email from profile: 
+2025-08-11 21:50:42,563 - INFO - Closed profile tab.
+2025-08-11 21:50:42,585 - INFO - Switched back to search results window.
+2025-08-11 21:50:42,586 - INFO - Total leads collected: 5
+2025-08-11 21:50:42,624 - INFO - Successfully exported 5 leads to leads.csv
+2025-08-11 21:50:42,741 - INFO - Closed extra tab: E6ED7458209C0E4286FEC09C95600596
+2025-08-11 21:50:45,533 - INFO - Browser closed.

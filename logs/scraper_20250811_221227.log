@@ -1,0 +1,137 @@
+2025-08-11 22:12:27,739 - INFO - Setting up the browser...
+2025-08-11 22:12:27,742 - INFO - Using remote debugging port: 9714
+2025-08-11 22:12:30,201 - INFO - Browser setup complete
+2025-08-11 22:12:30,204 - INFO - Starting IndiaMART Lead Scraper
+2025-08-11 22:12:30,206 - INFO - Navigating to IndiaMART buyer login page...
+2025-08-11 22:12:32,036 - INFO - Navigated to buyer login page. Current URL: https://buyer.indiamart.com/login
+2025-08-11 22:12:43,546 - INFO - Entered mobile number: 7720907356
+2025-08-11 22:12:46,782 - INFO - Clicked 'Send OTP' button.
+2025-08-11 22:12:56,580 - INFO - Entered OTP.
+2025-08-11 22:12:56,794 - INFO - Clicked 'Verify OTP' button.
+2025-08-11 22:12:56,803 - INFO - Login process successful!
+2025-08-11 22:12:56,803 - INFO - Using keyword: Cricket Ball
+2025-08-11 22:12:56,804 - INFO - Initiating search for: Cricket Ball
+2025-08-11 22:13:00,638 - INFO - Entered keyword 'Cricket Ball' into the search input box (id='search_string').
+2025-08-11 22:13:01,073 - INFO - Clicked the first search button (rvmp_srch_button).
+2025-08-11 22:13:03,425 - INFO - Clicked the second search button (adv-btn search-button).
+2025-08-11 22:13:04,158 - INFO - Switched to new window/tab: https://dir.indiamart.com/search.mp?ss=Cricket+Ball&search_type=p&mcatid=11234&catid=533&prdsrc=1&q-quantity-unit=piece
+2025-08-11 22:13:04,750 - INFO - Search results page loaded (listingCardContainer found).
+2025-08-11 22:13:04,750 - INFO - Attempting to set city to 'All India'.
+2025-08-11 22:13:07,920 - INFO - Clicked city dropdown button.
+2025-08-11 22:13:20,300 - WARNING - City dropdown or 'All India' option not found/interactable. Proceeding without city filter.
+2025-08-11 22:13:20,300 - INFO - Attempting to click 'Show more results' button repeatedly.
+2025-08-11 22:13:20,520 - INFO - Clicked 'Show more results' button.
+2025-08-11 22:13:29,661 - INFO - 'Show more results' button no longer visible or timed out.
+2025-08-11 22:13:29,661 - INFO - Finished clicking 'Show more results' buttons.
+2025-08-11 22:13:29,663 - INFO - Scraping page 1...
+2025-08-11 22:13:30,040 - INFO - Ensured driver is on search results window: https://dir.indiamart.com/search.mp?ss=Cricket+Ball&search_type=p&mcatid=11234&catid=533&prdsrc=1&q-quantity-unit=piece&v=4&crs=glb&trc=xium&cq=Panaji&tags=res:RC2|ktp:N0|stype:attr=1|mtp:G|wc:3|lcf:3|cq:panaji|qr_nm:gl-gd|cs:16684|com-cf:nl|ptrs:na|mc:11234|cat:533|qry_typ:P|lang:en|rtn:1-0-2-1-2-1-3|tyr:3|qrd:250810|mrd:250811|prdt:250811|msf:ls|pfen:1|gli:G0I1
+2025-08-11 22:13:30,126 - INFO - Found listingCardContainer.
+2025-08-11 22:13:32,169 - INFO - Attempting to click 'Show more results' button repeatedly.
+2025-08-11 22:13:37,632 - INFO - 'Show more results' button no longer visible or timed out.
+2025-08-11 22:13:37,633 - INFO - Finished clicking 'Show more results' buttons.
+2025-08-11 22:13:37,655 - INFO - Found 15 listings on page 1
+2025-08-11 22:13:40,598 - INFO - Processing 15 leads for detailed info from page 1.
+2025-08-11 22:13:42,087 - INFO - Visiting profile for detailed info: https://www.indiamart.com/proddetail/guru-rubber-cricket-tennis-ball-24696448462.html?pos=1&kwd=piece%20cricket%20ball&tags=rk:T||dt:82|db:02|prc:1|dtp:p||sv:VGP|rsf:gd|ri:VGP_T_100_NP-|-res:RC2|ktp:N0|stype:attr=1|mtp:G|wc:3|lcf:3|cq:panaji|qr_nm:gl-gd|cs:16684|com-cf:nl|ptrs:na|mc:11234|cat:533|qry_typ:P|lang:en|rtn:1-0-2-1-2-1-3|tyr:3|qrd:250810|mrd:250811|prdt:250811|msf:ls|pfen:1|gli:G0I1|v=4|crs=glb|r=5
+2025-08-11 22:13:52,765 - INFO - Extracted detailed address from seller contact: Pk Towers, Nh 17 Honavar, Uttara Kannada Karwar - 581334, Uttara Kannada, Karnataka, India
+2025-08-11 22:13:54,575 - INFO - Extracted phone from profile (after click): 7942542769
+2025-08-11 22:13:54,734 - INFO - Extracted email from profile: 
+2025-08-11 22:13:54,903 - INFO - Closed profile tab.
+2025-08-11 22:13:54,925 - INFO - Switched back to search results window.
+2025-08-11 22:13:56,290 - INFO - Visiting profile for detailed info: https://www.indiamart.com/proddetail/cricket-rubber-ball-2856384125433.html?pos=2&kwd=piece%20cricket%20ball&tags=rk:T||dt:82|db:02|prc:1|dtp:p||sv:VGP|rsf:gd|ri:VGP_T_100_NP-|-res:RC2|ktp:N0|stype:attr=1|mtp:G|wc:3|lcf:3|cq:panaji|qr_nm:gl-gd|cs:16684|com-cf:nl|ptrs:na|mc:11234|cat:533|qry_typ:P|lang:en|rtn:1-0-2-1-2-1-3|tyr:3|qrd:250810|mrd:250811|prdt:250811|msf:ls|pfen:1|gli:G0I1|v=4|crs=glb|r=5
+2025-08-11 22:14:05,251 - INFO - Extracted detailed address from seller contact: 269, Uppar Galli, Khasbag, Belagavi - 590003, Karnataka, India
+2025-08-11 22:14:07,006 - INFO - Extracted phone from profile (after click): 8047697802
+2025-08-11 22:14:07,146 - INFO - Extracted email from profile: 
+2025-08-11 22:14:07,310 - INFO - Closed profile tab.
+2025-08-11 22:14:07,332 - INFO - Switched back to search results window.
+2025-08-11 22:14:08,330 - INFO - Visiting profile for detailed info: https://www.indiamart.com/supreme-sports-belgaum/?pos=3&kwd=piece%20cricket%20ball&tags=rk:C||dt:82|db:02||dtp:p||sv:VGP|rsf:gd|ri:VGP_C_100_NP-|-res:RC2|ktp:N0|stype:attr=1|mtp:G|wc:3|lcf:3|cq:panaji|qr_nm:gl-gd|cs:16684|com-cf:nl|ptrs:na|mc:11234|cat:533|qry_typ:P|lang:en|rtn:1-0-2-1-2-1-3|tyr:3|qrd:250810|mrd:250811|prdt:250811|msf:ls|pfen:1|gli:G0I1|v=4|crs=glb
+2025-08-11 22:14:48,343 - INFO - Extracted Product Catalog URL: https://www.indiamart.com/supreme-sports-belgaum/supreme-sports.pdf
+2025-08-11 22:14:48,593 - INFO - Closed profile tab.
+2025-08-11 22:14:48,610 - INFO - Switched back to search results window.
+2025-08-11 22:14:49,396 - INFO - Visiting profile for detailed info: https://www.indiamart.com/kiran-sports/?pos=4&kwd=piece%20cricket%20ball&tags=rk:C||dt:82|db:02||dtp:p||sv:VGP|rsf:gd|ri:VGP_C_100_NP-|-res:RC2|ktp:N0|stype:attr=1|mtp:G|wc:3|lcf:3|cq:panaji|qr_nm:gl-gd|cs:16684|com-cf:nl|ptrs:na|mc:11234|cat:533|qry_typ:P|lang:en|rtn:1-0-2-1-2-1-3|tyr:3|qrd:250810|mrd:250811|prdt:250811|msf:ls|pfen:1|gli:G0I1|v=4|crs=glb
+2025-08-11 22:15:28,860 - INFO - Extracted Product Catalog URL: https://www.indiamart.com/kiran-sports/kiran-sports.pdf
+2025-08-11 22:15:28,997 - INFO - Closed profile tab.
+2025-08-11 22:15:29,019 - INFO - Switched back to search results window.
+2025-08-11 22:15:30,385 - INFO - Visiting profile for detailed info: https://www.indiamart.com/kb-sports-belgaum/?pos=5&kwd=piece%20cricket%20ball&tags=rk:T||dt:82|db:02||dtp:p||sv:VGP|rsf:gd|ri:VGP_T_100_NP-|-res:RC2|ktp:N0|stype:attr=1|mtp:G|wc:3|lcf:3|cq:panaji|qr_nm:gl-gd|cs:16684|com-cf:nl|ptrs:na|mc:11234|cat:533|qry_typ:P|lang:en|rtn:1-0-2-1-2-1-3|tyr:3|qrd:250810|mrd:250811|prdt:250811|msf:ls|pfen:1|gli:G0I1|v=4|crs=glb
+2025-08-11 22:16:10,265 - INFO - Extracted Product Catalog URL: https://www.indiamart.com/kb-sports-belgaum/k-b-sports.pdf
+2025-08-11 22:16:10,415 - INFO - Closed profile tab.
+2025-08-11 22:16:10,422 - INFO - Switched back to search results window.
+2025-08-11 22:16:11,789 - INFO - Visiting profile for detailed info: https://www.indiamart.com/proddetail/leather-cricket-ball-2857172520488.html?pos=6&kwd=piece%20cricket%20ball&tags=rk:TS|plc:1|dt:1552|db:32|prc:1|dtp:p|pfs:1|sv:T|rsf:gl|ri:T_TS_G250_P-|-res:RC2|ktp:N0|stype:attr=1|mtp:G|wc:3|lcf:3|cq:panaji|qr_nm:gl-gd|cs:16684|com-cf:nl|ptrs:na|mc:11234|cat:533|qry_typ:P|lang:en|rtn:1-0-2-1-2-1-3|tyr:3|qrd:250810|mrd:250811|prdt:250811|msf:ls|pfen:1|gli:G0I1|v=4|crs=glb|r=4
+2025-08-11 22:16:21,962 - INFO - Extracted detailed address from seller contact: 770/37 E, Saifi Market, Jaidi Nagar Near Shastri Nagar, Near Meerut - 250002, Uttar Pradesh, India
+2025-08-11 22:16:28,968 - INFO - Extracted email from profile: 
+2025-08-11 22:16:29,115 - INFO - Closed profile tab.
+2025-08-11 22:16:29,135 - INFO - Switched back to search results window.
+2025-08-11 22:16:30,523 - INFO - Visiting profile for detailed info: https://www.indiamart.com/proddetail/tennis-cricket-ball-22369389988.html?pos=7&kwd=piece%20cricket%20ball&tags=rk:A|plc:1|dt:1552|db:32|prc:1|dtp:p|pfs:1|sv:T|rsf:gl|ri:T_A_G250_P-|-res:RC2|ktp:N0|stype:attr=1|mtp:G|wc:3|lcf:3|cq:panaji|qr_nm:gl-gd|cs:16684|com-cf:nl|ptrs:na|mc:11234|cat:533|qry_typ:P|lang:en|rtn:1-0-2-1-2-1-3|tyr:3|qrd:250810|mrd:250811|prdt:250811|msf:ls|pfen:1|gli:G0I1|v=4|crs=glb|r=3
+2025-08-11 22:16:40,999 - INFO - Extracted detailed address from seller contact: No. 189, Mohanpuri, Sharma Nagar Meerut - 250001, Uttar Pradesh, India
+2025-08-11 22:16:42,108 - WARNING - Error extracting phone from profile (after click): Message: element click intercepted: Element <div class="viwmn clMsk pdp_enq pcp txtC pd_l0 pd_r0 bdr5 mnH52 " id="mn_mask_pg-1" style="padding:5px 0">...</div> is not clickable at point (1070, 636). Other element would receive the click: <iframe frameborder="0" src="https://e40fe9297d16f747e9de81162b6255fb.safeframe.googlesyndication.com/safeframe/1-0-45/html/container.html" id="google_ads_iframe_/3047175/1_0" title="3rd party ad content" name="" scrolling="no" marginwidth="0" marginheight="0" width="980" height="90" data-is-safeframe="true" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" allow="private-state-token-redemption;attribution-reporting" aria-label="Advertisement" tabindex="0" data-google-container-id="1" style="border: 0px; vertical-align: bottom; max-height: 30vh !important; overflow: hidden !important; display: block; margin: 0px auto;" data-load-complete="true"></iframe>
+  (Session info: chrome=138.0.7204.184)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6519ce415+77285]
+	GetHandleVerifier [0x0x7ff6519ce470+77376]
+	(No symbol) [0x0x7ff651799a6a]
+	(No symbol) [0x0x7ff6517f83e9]
+	(No symbol) [0x0x7ff6517f5d8b]
+	(No symbol) [0x0x7ff6517f2dd1]
+	(No symbol) [0x0x7ff6517f1ce1]
+	(No symbol) [0x0x7ff6517e3458]
+	(No symbol) [0x0x7ff65181860a]
+	(No symbol) [0x0x7ff6517e2d06]
+	(No symbol) [0x0x7ff651818820]
+	(No symbol) [0x0x7ff65184087f]
+	(No symbol) [0x0x7ff6518183e3]
+	(No symbol) [0x0x7ff6517e1521]
+	(No symbol) [0x0x7ff6517e22b3]
+	GetHandleVerifier [0x0x7ff651cb1efd+3107021]
+	GetHandleVerifier [0x0x7ff651cac29d+3083373]
+	GetHandleVerifier [0x0x7ff651ccbedd+3213485]
+	GetHandleVerifier [0x0x7ff6519e884e+184862]
+	GetHandleVerifier [0x0x7ff6519f055f+216879]
+	GetHandleVerifier [0x0x7ff6519d7084+113236]
+	GetHandleVerifier [0x0x7ff6519d7239+113673]
+	GetHandleVerifier [0x0x7ff6519be298+11368]
+	BaseThreadInitThunk [0x0x7ffb8b46259d+29]
+	RtlUserThreadStart [0x0x7ffb8cd0af78+40]
+
+2025-08-11 22:16:42,234 - INFO - Extracted email from profile: 
+2025-08-11 22:16:42,379 - INFO - Closed profile tab.
+2025-08-11 22:16:42,400 - INFO - Switched back to search results window.
+2025-08-11 22:16:43,360 - INFO - Visiting profile for detailed info: https://www.indiamart.com/proddetail/vx1-pvc-cricket-ball-2851752234948.html?pos=8&kwd=piece%20cricket%20ball&tags=rk:A|plc:1|dt:1552|db:32|prc:1|dtp:p|pfs:1|sv:T|rsf:gl|ri:T_A_G250_P-|-res:RC2|ktp:N0|stype:attr=1|mtp:G|wc:3|lcf:3|cq:panaji|qr_nm:gl-gd|cs:16684|com-cf:nl|ptrs:na|mc:11234|cat:533|qry_typ:P|lang:en|rtn:1-0-2-1-2-1-3|tyr:3|qrd:250810|mrd:250811|prdt:250811|msf:ls|pfen:1|gli:G0I1|v=4|crs=glb|r=3
+2025-08-11 22:16:52,446 - INFO - Extracted detailed address from seller contact: B 16-17,bhalla Sports Pvt Ltd, Delhi Road, Mohkam Pur Meerut - 250103, Uttar Pradesh, India
+2025-08-11 22:16:54,198 - INFO - Extracted phone from profile (after click): 8048200752
+2025-08-11 22:16:54,319 - INFO - Extracted email from profile: 
+2025-08-11 22:16:54,487 - INFO - Closed profile tab.
+2025-08-11 22:16:54,510 - INFO - Switched back to search results window.
+2025-08-11 22:16:55,126 - INFO - Visiting profile for detailed info: https://www.indiamart.com/nandi-plastic/?pos=9&kwd=piece%20cricket%20ball&tags=rk:T||dt:99|db:02||dtp:p||sv:VGP|rsf:gd|ri:VGP_T_100_NP-|-res:RC2|ktp:N0|stype:attr=1|mtp:G|wc:3|lcf:3|cq:panaji|qr_nm:gl-gd|cs:16684|com-cf:nl|ptrs:na|mc:11234|cat:533|qry_typ:P|lang:en|rtn:1-0-2-1-2-1-3|tyr:3|qrd:250810|mrd:250811|prdt:250811|msf:ls|pfen:1|gli:G0I1|v=4|crs=glb
+2025-08-11 22:17:25,242 - INFO - Extracted Product Catalog URL: https://www.indiamart.com/nandi-plastic/nandi-plastics.pdf
+2025-08-11 22:17:25,387 - INFO - Closed profile tab.
+2025-08-11 22:17:25,392 - INFO - Switched back to search results window.
+2025-08-11 22:17:25,932 - INFO - Visiting profile for detailed info: https://www.indiamart.com/proddetail/gm-crown-leather-cricket-ball-2855247427262.html?pos=10&kwd=piece%20cricket%20ball&tags=rk:T||dt:142|db:03|prc:1|dtp:p||sv:M|rsf:gd|ri:M_T_250_NP-|-res:RC2|ktp:N0|stype:attr=1|mtp:G|wc:3|lcf:3|cq:panaji|qr_nm:gl-gd|cs:16684|com-cf:nl|ptrs:na|mc:11234|cat:533|qry_typ:P|lang:en|rtn:1-0-2-1-2-1-3|tyr:3|qrd:250810|mrd:250811|prdt:250811|msf:ls|pfen:1|gli:G0I1|v=4|crs=glb|r=5
+2025-08-11 22:17:35,336 - INFO - Extracted detailed address from seller contact: G.no.9, 2607 A 2608/4 B Ward, Shahu Stadium, Mangalwar Peth, Kolhapur - 416002, Maharashtra, India
+2025-08-11 22:17:37,079 - INFO - Extracted phone from profile (after click): 8044017822
+2025-08-11 22:17:37,200 - INFO - Extracted email from profile: 
+2025-08-11 22:17:37,352 - INFO - Closed profile tab.
+2025-08-11 22:17:37,372 - INFO - Switched back to search results window.
+2025-08-11 22:17:38,138 - INFO - Visiting profile for detailed info: https://www.indiamart.com/anand-sports-hubballi/?pos=11&kwd=piece%20cricket%20ball&tags=rk:B||dt:139|db:03||dtp:p||sv:VGP|rsf:gd|ri:VGP_B_250_NP-|-res:RC2|ktp:N0|stype:attr=1|mtp:G|wc:3|lcf:3|cq:panaji|qr_nm:gl-gd|cs:16679|com-cf:nl|ptrs:na|mc:11234|cat:533|qry_typ:P|lang:en|rtn:4-0-0-1-0-0-0|tyr:3|qrd:250810|mrd:250811|prdt:250811|msf:ls|pfen:1|gli:G0I1|v=4|crs=glb
+2025-08-11 22:18:06,886 - INFO - Extracted Product Catalog URL: https://www.indiamart.com/anand-sports-hubballi/anand-sports.pdf
+2025-08-11 22:18:06,956 - INFO - Closed profile tab.
+2025-08-11 22:18:06,958 - INFO - Switched back to search results window.
+2025-08-11 22:18:08,334 - INFO - Visiting profile for detailed info: https://www.indiamart.com/company/94529595/?pos=12&kwd=piece%20cricket%20ball&tags=rk:B||dt:126|db:03|prc:1|dtp:p||sv:VGP|rsf:gd|ri:VGP_B_250_NP-|-res:RC2|ktp:N0|stype:attr=1|mtp:G|wc:3|lcf:3|cq:panaji|qr_nm:gl-gd|cs:16679|com-cf:nl|ptrs:na|mc:11234|cat:533|qry_typ:P|lang:en|rtn:4-0-0-1-0-0-0|tyr:3|qrd:250810|mrd:250811|prdt:250811|msf:ls|pfen:1|gli:G0I1|v=4|crs=glb
+2025-08-11 22:18:31,990 - INFO - Extracted Product Catalog URL: https://www.indiamart.com/company/94529595/karthik-enterprises.pdf
+2025-08-11 22:18:32,064 - INFO - Closed profile tab.
+2025-08-11 22:18:32,071 - INFO - Switched back to search results window.
+2025-08-11 22:18:32,923 - INFO - Visiting profile for detailed info: https://www.indiamart.com/vishwashanti-tyres/?pos=13&kwd=piece%20cricket%20ball&tags=rk:C||dt:104|db:03||dtp:p||sv:VGP|rsf:gd|ri:VGP_C_250_NP-|-res:RC2|ktp:N0|stype:attr=1|mtp:G|wc:3|lcf:3|cq:panaji|qr_nm:gl-gd|cs:16679|com-cf:nl|ptrs:na|mc:11234|cat:533|qry_typ:P|lang:en|rtn:4-0-0-1-0-0-0|tyr:3|qrd:250810|mrd:250811|prdt:250811|msf:ls|pfen:1|gli:G0I1|v=4|crs=glb
+2025-08-11 22:19:11,050 - INFO - Extracted Product Catalog URL: https://www.indiamart.com/vishwashanti-tyres/vishwashanti-tyres.pdf
+2025-08-11 22:19:11,119 - INFO - Closed profile tab.
+2025-08-11 22:19:11,122 - INFO - Switched back to search results window.
+2025-08-11 22:19:12,382 - INFO - Visiting profile for detailed info: https://www.indiamart.com/kumar-plastics-hubli/?pos=14&kwd=piece%20cricket%20ball&tags=rk:C||dt:139|db:03||dtp:p||sv:VGP|rsf:gd|ri:VGP_C_250_NP-|-res:RC2|ktp:N0|stype:attr=1|mtp:G|wc:3|lcf:3|cq:panaji|qr_nm:gl-gd|cs:16679|com-cf:nl|ptrs:na|mc:11234|cat:533|qry_typ:P|lang:en|rtn:4-0-0-1-0-0-0|tyr:3|qrd:250810|mrd:250811|prdt:250811|msf:ls|pfen:1|gli:G0I1|v=4|crs=glb
+2025-08-11 22:19:50,978 - INFO - Extracted Product Catalog URL: https://www.indiamart.com/kumar-plastics-hubli/parishrama-plastic-moulding-works.pdf
+2025-08-11 22:19:51,045 - INFO - Closed profile tab.
+2025-08-11 22:19:51,046 - INFO - Switched back to search results window.
+2025-08-11 22:19:52,075 - INFO - Visiting profile for detailed info: https://www.indiamart.com/madan-penmartkarad/?pos=15&kwd=piece%20cricket%20ball&tags=rk:T||dt:244|db:05||dtp:p||sv:VGP|rsf:gd|ri:VGP_T_250_NP-|-res:RC2|ktp:N0|stype:attr=1|mtp:G|wc:3|lcf:3|cq:panaji|qr_nm:gl-gd|cs:16679|com-cf:nl|ptrs:na|mc:11234|cat:533|qry_typ:P|lang:en|rtn:4-0-0-1-0-0-0|tyr:3|qrd:250810|mrd:250811|prdt:250811|msf:ls|pfen:1|gli:G0I1|v=4|crs=glb
+2025-08-11 22:20:31,404 - INFO - Extracted Product Catalog URL: https://www.indiamart.com/madan-penmartkarad/madan-pen-mart.pdf
+2025-08-11 22:20:31,472 - INFO - Closed profile tab.
+2025-08-11 22:20:31,474 - INFO - Switched back to search results window.
+2025-08-11 22:20:38,653 - INFO - No more 'Next' page buttons found.
+2025-08-11 22:20:38,654 - INFO - Total leads collected: 9
+2025-08-11 22:20:38,661 - INFO - Successfully exported 9 leads to leads.csv
+2025-08-11 22:20:38,736 - INFO - Closed extra tab: F5DEEA1B6A2A6DF8935C341C69A5DC29
+2025-08-11 22:20:40,966 - INFO - Browser closed.

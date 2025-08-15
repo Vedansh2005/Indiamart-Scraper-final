@@ -1,0 +1,8 @@
+2025-08-11 21:47:19,453 - INFO - Setting up the browser...
+2025-08-11 21:47:19,473 - INFO - Using remote debugging port: 9838
+2025-08-11 21:47:21,983 - INFO - Browser setup complete
+2025-08-11 21:47:21,985 - INFO - Starting IndiaMART Lead Scraper
+2025-08-11 21:47:21,986 - INFO - Navigating to IndiaMART buyer login page...
+2025-08-11 21:47:23,465 - INFO - Navigated to buyer login page. Current URL: https://buyer.indiamart.com/login
+2025-08-11 21:48:05,884 - INFO - Operation cancelled by user.
+2025-08-11 21:48:05,902 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/e5f45636aea9fe9e7744122f08e80d46/window/handles
